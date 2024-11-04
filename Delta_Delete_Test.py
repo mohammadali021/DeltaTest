@@ -14,8 +14,8 @@ class DeleteTest(unittest.TestCase):
         self.driver = webdriver.Chrome(options=options)
 
         # set username and password
-        self.username = kwargs["username"] if "username" in kwargs.keys() else '09118143461'
-        self.password = kwargs["password"] if "password" in kwargs.keys() else 'A@rtin1396'
+        self.username = kwargs["username"] if "username" in kwargs.keys() else
+        self.password = kwargs["password"] if "password" in kwargs.keys() else
 
     def test_website(self, *args, **kwargs):
         driver = self.driver
