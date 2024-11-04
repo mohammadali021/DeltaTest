@@ -12,8 +12,8 @@ class login(unittest.TestCase):
         options = webdriver.ChromeOptions()
         options.add_experimental_option("detach", True)
         self.driver = webdriver.Chrome(options=options)
-        username = "09935263066"
-        password = "123456789"
+        username = 
+        password = 
 
     def test_Dleta_web(self):
         self.driver.get("https://www.delta.ir")
